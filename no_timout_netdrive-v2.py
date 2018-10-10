@@ -32,8 +32,9 @@ def run(interval, command):
     count = 0
     file_number = 20
     recon_tries = 0
+    theReps = int(input("Enter numer of times to repeat program: "))
 
-    while count < 32:
+    while count < theReps:
         try:
             # sleep for the remaining seconds of interval
             time_remaining = interval - time.time() % interval
