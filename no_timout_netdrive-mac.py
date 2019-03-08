@@ -36,7 +36,7 @@ def run(interval, command):
     theReps = int(input("Enter number of times to repeat program: "))
 
 # 32 = 8hrs
-    while theReps < theReps:
+    while count < theReps:
         try:
             # sleep for the remaining seconds of interval
             time_remaining = interval-time.time()%interval
